@@ -108,6 +108,7 @@ ul {
 /*h2などの上に出る余白を消す:margin0を指定*/
 
 .top_description {
+  width: 200px;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
@@ -730,6 +731,9 @@ textarea::-moz-placeholder {
 .top_message {
   font-size: 30px;
 }
+.top_description{
+
+}
 
 .header-left {
   width: 80px;
@@ -737,27 +741,32 @@ textarea::-moz-placeholder {
 
 /* ------ MOBILE FOURSTEP ------ */
 
+.fourstep{
+  height: 1300px;
+}
 
 .fourstep_container {
   width: 300px;
   height: 300px;
+  margin: 0 auto;
 }
 
 .step {
-  clear: left;
+  width: 230px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .step img {
-  margin-left: 60px;
+  margin: 0 auto;
 }
+
 
 
 
 /* ------ MOBILE PORTFOLIO ------ */
 .portfolio {
-  height: 540px;
+  height: 500px;
 }
 
 .portfolio h3  {
@@ -786,13 +795,26 @@ textarea::-moz-placeholder {
 
 /* ------ MOBILE TEAM ------ */
 .team {
-  height: 600px;
+  height: 1800px;
 }
 
 .team_container {
   margin-top: 40px;
   width: 300px;
   height: 380px;
+}
+
+.member{
+  clear: left;
+  margin-bottom: 150px;
+}
+
+.member p {
+}
+
+.member h3{
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 .team h3 {
@@ -805,7 +827,6 @@ textarea::-moz-placeholder {
 .plan_container {
   width: 330px;
   position: initial;
-
 }
 
 table {
@@ -854,7 +875,7 @@ form {
 }
 
 .input {
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
 }
 
