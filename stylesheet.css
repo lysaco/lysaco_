@@ -1,14 +1,14 @@
 
-body{
+body {
   margin: 0;
   width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
   margin-top: 0px;
 }
@@ -16,41 +16,38 @@ ul{
 
 /* ------ HEADER ------ */
 
-header{
-}
-
-.header{
+.header {
   width: 100%;
   background-color: #ffffff;
   height: 93px;
   color: #4e525d;
 }
 
-.header_container{
+.header_container {
   width: 100%;
   max-width: 1280px;
   min-width: 300px;
   margin: 0 auto;
 }
 
-.header-left{
+.header-left {
   width: 40%;
   min-width: 40%;
   height: 90px;
   float: left;
 }
 
-.logo{
+.logo {
   width: 600px:
   min-width: 400px;
   margin-left: 150px;
 }
 
-.logo img{
+.logo img {
   margin-top: 25px;
 }
 
-.header-right{
+.header-right {
   max-width: 60%;
   width: 50%;
   height: 90px;
@@ -59,7 +56,7 @@ header{
 }
 
 /*ulはブロックレベル要素*/
-.nav ul{
+.nav ul {
   line-height: 90px;
   font-size: 0;
   width: 600px;
@@ -67,7 +64,7 @@ header{
   margin-right: 115px;
 }
 
-.nav ul li{
+.nav ul li {
   display: inline;
   text-align: center;
   float: left;
@@ -78,7 +75,7 @@ header{
   color: #000000;
 }
 
-.nav ul li:hover{
+.nav ul li:hover {
   color: #44C0C2;
   background-color: #fefefe;
   opacity: 0.6;
@@ -92,14 +89,14 @@ header{
 
 
 /* ------ TOP ------ */
-.top{
+.top {
   width: 100%;
   height: 500px;
   background-image: url(image/top.png);
   background-size: cover;
 }
 
-.top_message{
+.top_message {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -110,7 +107,7 @@ header{
 }
 /*h2などの上に出る余白を消す:margin0を指定*/
 
-.top_description{
+.top_description {
   font-size: 20px;
   text-align: center;
   color: #ffffff;
@@ -118,7 +115,7 @@ header{
   font-weight: 300;
 }
 
-.learnmore{
+.learnmore {
   width: 200px;
   height: 56px;
   border-radius: 5px;
@@ -136,34 +133,31 @@ header{
   display: block;
 }
 
- .learnmore:hover{
+ .learnmore:hover {
   background-color: #ffffff;
   color: #44C0C2;
    -webkit-transition: all .5s;
   transition: all .5s;
  }
 
-
-
-
-.learnmore a{
+.learnmore a {
   color: #ffffff;
 }
 
-.learnmore :hover{
+.learnmore :hover {
   opacity: 0.5;
 }
 
 
 /* ------ FOURSTEP ------ */
-.fourstep{
+.fourstep {
   width: 100%;
   height: 370px;
   padding-top: 90px;
   background-color: #ffffff;
 }
 
-.fourstep_container{
+.fourstep_container {
   width: 1060px;
   height: 280px;
   text-align: center;
@@ -171,7 +165,7 @@ header{
 
 }
 
-.step{
+.step {
   width: 225px;
   height: 280px;
   float: left;
@@ -179,18 +173,18 @@ header{
   text-align: center;
 }
 
-.step img{
+.step img {
   width: 42%;
 }
 
-.step h3{
+.step h3 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #4e525d;
 }
 
-.step p{
+.step p {
   font-size: 12.5px;
   text-align: center;
   line-height: 2em;
@@ -199,7 +193,7 @@ header{
   color: #4e525d;
 }
 
-.readmore{
+.readmore {
   display: inline-block;
   width: 86px;
   height: 27px;
@@ -216,7 +210,7 @@ header{
   margin:0 auto;
 }
 
-.readmore:hover{
+.readmore:hover {
   background-color: #999999;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -224,13 +218,13 @@ header{
 */
 
 /* ------ PORTFOLIO ------ */
-.portfolio{
+.portfolio {
   width: 100%;
   height: 913px;
   background-color: #f1f1f1;
 }
 
-.portfolio h3{
+.portfolio h3 {
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -239,19 +233,19 @@ header{
   padding-top: 80px;
 }
 
-.works{
+.works {
   width: 1000px;
   height: 450px;
   margin:  30px auto;
 }
 
-.works img{
+.works img {
   width: 230px;
   margin: 10px;
   float: left;
 }
 
-.seeallworks{
+.seeallworks {
   display: block;
   width: 200px;
   height: 50px;
@@ -268,7 +262,7 @@ header{
   margin: 0 auto;
 }
 
-.seeallworks:hover{
+.seeallworks:hover {
   background-color: #ffffff;
   color: #44C0C2;
   width: 200px;
@@ -283,12 +277,12 @@ header{
 
 
 /* ------ TEAM ------ */
-.team{
+.team {
   width: 100%;
   height: 610px;
 }
 
-.team h3{
+.team h3 {
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -297,7 +291,7 @@ header{
   padding-top: 40px;
 }
 
-.team_container{
+.team_container {
   width: 1065px;
   height: 460px;
   text-align: center;
@@ -305,7 +299,7 @@ header{
   margin-top: 60px;
 }
 
-.member{
+.member {
   width: 225px;
   height: 280px;
   float: left;
@@ -313,14 +307,14 @@ header{
   text-align: center;
 }
 
-.team .member h3{
+.team .member h3 {
   font-size: initial;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #4e525d;
 }
 
-.member p{
+.member p {
   font-size: 12.5px;
   text-align: center;
   line-height: 2em;
@@ -336,14 +330,14 @@ header{
 
 
 /* ------ PLAN ------ */
-.plan{
+.plan {
   width: 100%;
   height: 654px;
   background-color: #f1f1f1;
   position: relative;
 }
 
-.plan_container{
+.plan_container {
   width: 1095px;
   height: 540px;
   position: absolute;
@@ -354,14 +348,14 @@ header{
   margin: auto;
 }
 
-table{
+table {
   text-align: center;
   width: 340px;
   float: left;
   margin: 12px;
 }
 
-table th{
+table th {
   font-size: 23px;
   line-height: 70px;
   font-family: 'Open Sans', sans-serif;
@@ -370,7 +364,7 @@ table th{
   background-color: #ffffff;
 }
 
-table td{
+table td {
   line-height: 40px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -380,22 +374,22 @@ table td{
   font-size: 12.5px;
 }
 
-.basic, .premium{
+.basic, .premium {
   background-color: #485460;
 }
 
-.pro{
+.pro {
   background-color: #49cbcd;
 }
 
-.cost{
+.cost {
   line-height: 70px;
   font-size: 17px;
   color: #485460;
   background-color: #f8f9fb;
 }
 
-.buy{
+.buy {
   height: 80px;
   font-size: 12.5px;
   background-color: #f8f9fb;
@@ -416,37 +410,37 @@ table td{
    display: block;
 }
 
-.buynow:hover{
+.buynow:hover {
   background-color: #999999;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.gray a{
+.gray a {
   background-color: #48545F;
 }
 
-.green a{
+.green a {
   background-color: #50CACC;
 }
 
 
 /* ------ VOICE ------ */
-.voice{
+.voice {
   height: 430px;
   text-align: center;
   width: 100%;
 }
 
 
-.voice_container{
+.voice_container {
   width: 600px;
   height: 340px;
   margin: 0 auto;
   padding-top: 50px;
 }
 
-.voice_container h3{
+.voice_container h3 {
   line-height: 1.5em;
   font-size: 38px;
   font-family: 'Open Sans', sans-serif;
@@ -455,7 +449,7 @@ table td{
 
 }
 
-.voice p{
+.voice p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 2em;
@@ -464,14 +458,14 @@ table td{
 
 
 /* ------ CONTACT ------ */
-.contact{
+.contact {
   width: 100%;
   height: 615px;
   background-image: url(image/footer.png);
   background-size: cover;
 }
 
-.contact h3{
+.contact h3 {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 38px;
@@ -481,30 +475,30 @@ table td{
   padding-top: 70px;
 }
 
-.contact-left, .contact-right{
+.contact-left, .contact-right {
   width: 50%;
   height: 300px;
   float: left;
   margin-top: 70px;
 }
 
-.contact-left_container{
+.contact-left_container {
   width: 500px;
   margin: 0 auto;
   height: 100%;
   float: right;
 }
 
-form{
+form {
   width: 510px;
 }
 
-.sns{
+.sns {
   height: 40px;
   margin-top: 20px;
 }
 
-.sns a{
+.sns a {
   display: block;
   float: left;
   padding: 0;
@@ -513,11 +507,11 @@ form{
   font-size: larger;
 }
 
-.sns a:nth-child(1){
+.sns a:nth-child(1) {
   margin-left: 0;
 }
 
-.sns i{
+.sns i {
   width: 36px;
   height: 36px;
   margin: 0;
@@ -527,22 +521,22 @@ form{
   display: block;
 }
 
-.twitter{
+.twitter {
   background-color: #305097;
   border-radius: 50%;
 }
 
-.facebook{
+.facebook {
   background-color: #00aced;
   border-radius: 50%;
 }
 
-.google-plus{
+.google-plus {
   background-color: #db4a39;
   border-radius: 50%;
 }
 
-.sns :hover{
+.sns :hover {
   opacity: 0.7;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -560,15 +554,15 @@ input {
   font-weight: 400;
 }
 
-input.input_name{
+input.input_name {
   margin-right: 10px;
 }
 
-.input{
+.input {
   min-width: 180px;
 }
 
-textarea{
+textarea {
   width: 485px;
   height: 140px;
   border-radius: 5px;
@@ -577,48 +571,48 @@ textarea{
   padding: 10px;
 }
 
-input::-webkit-input-placeholder{
+input::-webkit-input-placeholder {
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-input:-ms-input-placeholder{
+input:-ms-input-placeholder {
   font-weight: normal;
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-input::-moz-placeholder{
+input::-moz-placeholder {
   font-weight: normal;
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-textarea::-webkit-input-placeholder{
+textarea::-webkit-input-placeholder {
   font-weight: normal;
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-textarea:-ms-input-placeholder{
+textarea:-ms-input-placeholder {
   font-weight: normal;
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-textarea::-moz-placeholder{
+textarea::-moz-placeholder {
   font-weight: normal;
   color: #DADADA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-.send{
+.send {
   width: 150px;
   height: 45px;
   border-radius: 4px;
@@ -635,17 +629,17 @@ textarea::-moz-placeholder{
 }
 
 
-.send:hover{
+.send:hover {
   background-color: #999999;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-.meta{
+.meta {
   clear: left;
 }
 
-.meta p{
+.meta p {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -655,18 +649,18 @@ textarea::-moz-placeholder{
   margin-top: 20px;
 }
 
-.contact_message{
+.contact_message {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-.contact_message p:nth-child(1){
+.contact_message p:nth-child(1) {
   font-size: 20px;
   color: #ffffff;
   line-height: 0;
 }
 
-.contact_message p:nth-child(2){
+.contact_message p:nth-child(2) {
   font-size: 12px;
   color: #999999;
 }
@@ -682,21 +676,21 @@ textarea::-moz-placeholder{
   display: none;
 }
 
-.mobile-nav{
+.mobile-nav {
   position: absolute;
   top: 30px;
   right: 30px;
   cursor: pointer;
 }
 
-.mobile-nav div{
+.mobile-nav div {
   width:  40px;
   height: 35px;
   position: relative;
 }
 
 
-.mobile-nav span{
+.mobile-nav span {
   display: block;
   position: absolute;
   top: 0;
@@ -707,19 +701,19 @@ textarea::-moz-placeholder{
 }
 
 
-.mobile-nav span:nth-child(1){
+.mobile-nav span:nth-child(1) {
   top: 0px;
 }
 
-.mobile-nav span:nth-child(2){
+.mobile-nav span:nth-child(2) {
   top: 10px;
 }
 
-.mobile-nav span:nth-child(3){
+.mobile-nav span:nth-child(3) {
   top: 20px;
 }
 
-.mobile-nav span:nth-child(4){
+.mobile-nav span:nth-child(4) {
   top: 30px;
 }
 
@@ -733,59 +727,55 @@ textarea::-moz-placeholder{
 
 
 /* ------ MOBILE TOP ------ */
-.top_message{
+.top_message {
   font-size: 30px;
 }
 
-.header-left{
+.header-left {
   width: 80px;
 }
-
-.logo{
-}
-
 
 /* ------ MOBILE FOURSTEP ------ */
 
 
-.fourstep_container{
+.fourstep_container {
   width: 300px;
   height: 300px;
 }
 
-.step{
+.step {
   clear: left;
   margin: 0 auto;
   padding-bottom: 20px;
 }
 
-.step img{
+.step img {
   margin-left: 60px;
 }
 
 
 
 /* ------ MOBILE PORTFOLIO ------ */
-.portfolio{
+.portfolio {
   height: 540px;
 }
 
-.portfolio h3{
+.portfolio h3  {
   font-size: 30px;
 }
 
-.works{
+.works {
   width: 300px;
   height: 270px;
   margin-bottom: 10px;
 }
 
-.works img{
+.works img {
   width: 250px;
   margin:30px;
 }
 
-.seeallworks{
+.seeallworks {
   width: 150px;
   height: 46px;
   font-size: 17px;
@@ -795,101 +785,102 @@ textarea::-moz-placeholder{
 
 
 /* ------ MOBILE TEAM ------ */
-.team{
+.team {
   height: 600px;
 }
 
-.team_container{
+.team_container {
   margin-top: 40px;
   width: 300px;
   height: 380px;
 }
 
-.team h3{
+.team h3 {
   font-size: 30px;
 }
 
 
 
 /* ------ MOBILE PLAN ------ */
-.plan_container{
+.plan_container {
   width: 330px;
   position: initial;
 
 }
 
-table{
+table {
   width: 300px;
 }
 
 
 /* ------ MOBILE VOICE ------ */
-.voice_container{
+.voice_container {
   width: 280px;
   padding-top: 25px;
 }
 
-.voice_container h3{
+.voice_container h3 {
   line-height: 1.5em;
   font-size: 30px;
 }
 
 
 /* ------ MOBILE CONTACT ------ */
-.contact{
+.contact {
   height: 950px;
 }
 
-.contact h3{
+.contact h3 {
   font-size: 30px;
 }
 
-.contact-left, .contact-right{
+.contact-left,
+.contact-right {
   width: 100%;
   height: 300px;
   clear: left;
   margin-top: 30px;
 }
 
-.contact-left_container{
+.contact-left_container {
   width: 300px;
   clear: right;
   padding: 0 30px;
 }
 
-form{
+form {
   width: 280px;
   margin: 0 auto;
 }
 
-.input{
+.input {
   width: 200px;
   margin: 0 auto;
 }
 
-input{
+input {
   margin: 20px 0 ;
 }
 
-input.input_name{
+input.input_name {
   margin-right: 0px;
 }
 
-textarea{
+textarea {
   width: 280px;
   margin-top: 20px;
 }
 
-.send{
+.send {
   margin-top: 20px;
 }
 
-.send:hover{
+.send:hover {
   display: none;
 }
 
 
-.send{
+.send {
   margin-top: 30px;
   width: 150px;
   height: 46px;
