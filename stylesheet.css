@@ -152,6 +152,10 @@ ul {
 }
 
 
+.logo{
+  padding-left: 20px;
+}
+
 /* ------ FOURSTEP ------ */
 .fourstep {
   width: 100%;
@@ -749,7 +753,7 @@ textarea::-moz-placeholder {
 }
 
 .fourstep_container {
-  width: 300px;
+  width: 250px;
   height: 1300px;
   margin: 0 auto;
 }
@@ -811,6 +815,7 @@ textarea::-moz-placeholder {
 
 .member{
   clear: left;
+  margin-left: 40px;
   margin-bottom: 150px;
 }
 
