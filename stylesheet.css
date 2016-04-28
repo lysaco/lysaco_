@@ -732,7 +732,7 @@ textarea::-moz-placeholder {
   font-size: 30px;
 }
 .top_description{
-
+  width: 200px;
 }
 
 .header-left {
