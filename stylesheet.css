@@ -108,12 +108,14 @@ ul {
 /*h2などの上に出る余白を消す:margin0を指定*/
 
 .top_description {
-  width: 200px;
+  width: 600px;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .learnmore {
@@ -826,10 +828,10 @@ textarea::-moz-placeholder {
 /* ------ MOBILE PLAN ------ */
 .plan_container {
   width: 330px;
-  position: initial;
+
 }
 
-table {
+.plan_container div table {
   width: 300px;
 }
 
@@ -876,7 +878,8 @@ form {
 
 .input {
   width: 250px;
-  margin: 0 auto;
+text-align: left;
+
 }
 
 input {
@@ -892,21 +895,18 @@ textarea {
   margin-top: 20px;
 }
 
-.send {
-  margin-top: 20px;
-}
-
-.send:hover {
-  display: none;
-}
-
 
 .send {
   margin-top: 30px;
+  margin-right: -20px;
   width: 150px;
   height: 46px;
   font-size: 17px;
   line-height: 46px;
+}
+
+.send:hover {
+  display: none;
 }
 
 }
